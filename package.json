@@ -1,0 +1,28 @@
+{
+  "name": "concat-audio-buffers",
+  "version": "1.0.0",
+  "description": "A basic audio buffer concatenator that will work with Rollup.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/concat-audio-buffers.git"
+  },
+  "keywords": [
+    "audio",
+    "browser",
+    "utility"
+  ],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/concat-audio-buffers/issues"
+  },
+  "homepage": "https://github.com/jimkang/concat-audio-buffers",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "audio-context-singleton": "^1.0.2",
+    "oknok": "^3.0.0"
+  }
+}
